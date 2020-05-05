@@ -1,0 +1,16 @@
+{
+    "name":"Adblocker proj",
+    "manifest_version":2,
+    "version":"1.0",
+    "browser_action":{
+        "default_popup": "popup.html",
+        "default_icon":"16.png"
+        
+   
+  },
+    "permissions":["webRequest","webRequestBlocking","<all_urls>"],
+    "background":{
+        "scripts":["background.js"]
+    }
+
+}
